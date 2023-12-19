@@ -78,7 +78,7 @@ let ladder = {
     this.step--;
     return this;
   },
-  showStep: function() {
+  showStep: function() { // показывает текущую ступеньку
     alert( this.step );
     return this;
   }
